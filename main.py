@@ -12,7 +12,7 @@ def encode(pwd):
     return out
 
 
-#Evan Fontes code
+#Eric Fontes code
 def decode(pwd):
     return ""
 
