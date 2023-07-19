@@ -14,7 +14,10 @@ def encode(pwd):
 
 #Eric Fontes code
 def decode(pwd):
-    return ""
+    out = ""
+    for dig in pwd:
+        out += str((int(dig)-3)%10)
+    return out
 
 def print_menu():
     print("Menu")
